@@ -3,23 +3,30 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to sphinx_test's documentation!
+AIML（人工智能标记语言）教程
 =======================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 目录:
    :numbered:
 
-   chapter1.rst
-   chapter2.rst
-   chapter3.md
+   introduction.md
+   start.md
+   basictags.md
+   wildcards.md
+   star.md
+   srai.md
+   random.md
+   set_get.md
+   that.md
+   topic.md
+   think.md
+   condition.md
+   lists.md
+   buttons_replies.md
+   user_manual.md
 
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

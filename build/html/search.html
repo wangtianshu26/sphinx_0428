@@ -1,72 +1,237 @@
 
+
 <!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>搜索 &mdash; AIML教程 1.0 文档</title>
+  
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="utf-8" />
-    <title>Search &#8212; sphinx_test 1.0 documentation</title>
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
     
-    <link rel="stylesheet" href="_static/scrolls.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/print.css" type="text/css" />
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/translations.js"></script>
+        <script src="_static/searchtools.js"></script>
     
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
     
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script src="_static/theme_extras.js"></script>
-    <script src="_static/searchtools.js"></script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="#" />
-  <script src="searchindex.js" defer></script>
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="#" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
    
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
 
-  </head><body>
-    <div id="content">
-      <div class="header">
-        <h1 class="heading"><a href="index.html"
-          title="back to the documentation overview"><span>Search</span></a></h1>
-      </div>
-      <div class="relnav" role="navigation" aria-label="related navigation">
-        <a href="#">Search</a>
-      </div>
-      <div id="contentwrapper">
-        <div role="main">
-        
-  <h1 id="search-documentation">Search</h1>
-  <div id="fallback" class="admonition warning">
-  <script>$('#fallback').hide();</script>
-  <p>
-    Please activate JavaScript to enable the search
-    functionality.
-  </p>
-  </div>
-  <p>
-    From here you can search these documents. Enter your search
-    words into the box below and click "search". Note that the search
-    function will automatically search for all of the words. Pages
-    containing fewer words won't appear in the result list.
-  </p>
-  <form action="" method="get">
-    <input type="text" name="q" aria-labelledby="search-documentation" value="" />
-    <input type="submit" value="search" />
-    <span id="search-progress" style="padding-left: 10px"></span>
+          
+            <a href="index.html" class="icon icon-home"> AIML教程
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="#" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
   </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">目录:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">1. AIML简介</a></li>
+<li class="toctree-l1"><a class="reference internal" href="start.html">2. AIML入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basictags.html">3. AIML基本标签</a></li>
+<li class="toctree-l1"><a class="reference internal" href="wildcards.html">4. AIML通配符</a></li>
+<li class="toctree-l1"><a class="reference internal" href="star.html">5. &lt;star&gt;标签</a></li>
+<li class="toctree-l1"><a class="reference internal" href="srai.html">6. &lt;srai&gt;标签</a></li>
+<li class="toctree-l1"><a class="reference internal" href="random.html">7. &lt;random&gt;标签</a></li>
+<li class="toctree-l1"><a class="reference internal" href="set_get.html">8. &lt;set&gt;和&lt;get&gt;标签</a></li>
+<li class="toctree-l1"><a class="reference internal" href="that.html">9. &lt;that&gt;标签</a></li>
+<li class="toctree-l1"><a class="reference internal" href="topic.html">10. &lt;topic&gt;标签</a></li>
+<li class="toctree-l1"><a class="reference internal" href="think.html">11. &lt;think&gt;标签</a></li>
+<li class="toctree-l1"><a class="reference internal" href="condition.html">12. &lt;condition&gt;标签</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lists.html">13. 列表标签</a></li>
+<li class="toctree-l1"><a class="reference internal" href="buttons_replies.html">14. &lt;button&gt;标签和&lt;reply&gt;标签</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">AIML教程</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>搜索</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <noscript>
+  <div id="fallback" class="admonition warning">
+    <p class="last">
+      Please activate JavaScript to enable the search
+      functionality.
+    </p>
+  </div>
+  </noscript>
+
   
   <div id="search-results">
   
   </div>
 
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, wts
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
         </div>
       </div>
-    </div>
 
-    <div class="footer" role="contentinfo">
-        &#169; Copyright 2020, wts.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.4.
-    </div>
-  </body>
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+  <script type="text/javascript">
+    jQuery(function() { Search.loadIndex("searchindex.js"); });
+  </script>
+  
+  <script type="text/javascript" id="searchindexloader"></script>
+    
+
+<style>
+/* Sidebar header (and topbar for mobile) */
+.wy-side-nav-search, .wy-nav-top {
+     background: green;
+}
+/* Sidebar */
+.wy-nav-side {
+     background: darkorange;
+}
+</style>
+
+
+
+</body>
 </html>
